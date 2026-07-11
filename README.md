@@ -1,14 +1,17 @@
-<p align="center">
-  <a href="https://github.com/crateria">
-    <img src="headers/crateria-header.jpg" alt="Crateria" width="800">
-  </a>
-</p>
-
-<p align="center">
-  <img src="marks/crateria.png" width="72" height="72" alt="Crateria brand kit">
-</p>
-
 # Crateria brand kit
+
+## Header preview
+
+Wide banner used on product READMEs (`headers/crateria-header.jpg`, 1280×240).
+C mark sits left; vertical overflow is intentional.
+
+![Crateria header](headers/crateria-header.jpg)
+
+Product icon sample:
+
+<p align="center">
+  <img src="marks/crateria.png" width="72" height="72" alt="Crateria">
+</p>
 
 Canonical visual assets for the Crateria organization. Product repositories ship only the icons they need; this repository keeps masters, size ladders, and marketing sources.
 
