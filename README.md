@@ -34,6 +34,25 @@ Full mark (uncropped):
 
 Canonical visual assets for the Crateria organization. Product repositories ship only the icons they need; this repository keeps masters, size ladders, and marketing sources.
 
+
+## Standard product icons
+
+All product marks share one template:
+
+| Spec | Value |
+|------|--------|
+| Format | PNG (RGBA), square |
+| Master | 1024×1024 (`marks/`) |
+| App / README | 512×512 (`repo/`) |
+| Background | `#12151a` |
+| Glyph color | `#ff8541` (luminance-shaded) |
+| Padding | ~16% each side |
+| Outline | square border `#3a424c` |
+
+Preview:
+
+![icon sheet](marks/icon-sheet.png)
+
 ## Marks
 
 | Asset | Used for |
