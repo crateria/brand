@@ -37,21 +37,17 @@ Canonical visual assets for the Crateria organization. Product repositories ship
 
 ## Standard product icons
 
-All product marks share one template:
+UberMetroid-style flat marks — identical for every product:
 
 | Spec | Value |
 |------|--------|
-| Format | PNG (RGBA), square |
-| Master | 1024×1024 (`marks/`) |
-| App / README | 512×512 (`repo/`) |
-| Background | `#12151a` |
-| Glyph color | `#ff8541` (luminance-shaded) |
-| Padding | ~16% each side |
-| Outline | square border `#3a424c` |
-
-Preview:
+| Shape | Circle on transparent square (512×512 PNG) |
+| Fill | Solid coral `#E05D44` |
+| Symbol | Simple monochrome silhouette, darker `#B84230` |
+| Format | PNG (+ SVG embed of the same PNG) |
 
 ![icon sheet](marks/icon-sheet.png)
+
 
 ## Marks
 
