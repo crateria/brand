@@ -1,6 +1,7 @@
 # Contributing brand assets
 
-1. Prefer editing masters in `marks/` (1024 transparent PNG).
-2. Regenerate size ladder and `repo/` install copies when masters change.
-3. Update product repos only when shipping a new public icon.
-4. Never commit GPG keys or unrelated binaries.
+1. Public brand is **header-only** (`headers/crateria-header.jpg`).
+2. When the header changes, copy it into product repos as `assets/crateria-header.jpg`.
+3. Optional marketing stills go under `heroes/` (not used on GitHub READMEs by default).
+4. Do not reintroduce product icons without an explicit decision to ship them.
+5. Never commit GPG keys or unrelated binaries.
