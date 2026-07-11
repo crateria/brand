@@ -8,11 +8,11 @@
 
 Canonical visual assets for the Crateria organization.
 
-## Current public brand: header only
+## Public brand: header only
 
-GitHub READMEs, the org profile, and the packages site use the **header banner** as the brand surface. Product icons are **deferred** until there is a clear need (org avatar, app tray icons, store listings).
+GitHub READMEs, the org profile, and the packages site use the **header banner**. There is no product icon set in this repository.
 
-**Header source of truth:** `headers/crateria-header.jpg` (also `assets/crateria-header.jpg` in this repo).
+**Header source of truth:** `headers/crateria-header.jpg` (also `assets/crateria-header.jpg`).
 
 Product repos keep a **copy** at `assets/crateria-header.jpg` so README relative paths work without depending on a cross-repo CDN.
 
@@ -26,6 +26,14 @@ Product repos keep a **copy** at `assets/crateria-header.jpg` so README relative
 
 ![Crateria header](headers/crateria-header.jpg)
 
+## Directory layout
+
+```
+headers/  README banner (crateria-header.jpg)
+assets/   Same header copy for convenience
+heroes/   Optional wide / scenic marketing stills (not used on GitHub READMEs)
+```
+
 ## Installing the header into product repositories
 
 | Target | Copy |
@@ -34,7 +42,7 @@ Product repos keep a **copy** at `assets/crateria-header.jpg` so README relative
 | [crateria/crateria](https://github.com/crateria/crateria) | → `assets/crateria-header.jpg` |
 | [.github](https://github.com/crateria/.github) | → `crateria-header.jpg` (repo root + `profile/`) |
 
-README pattern (header only — no product icon block):
+README pattern:
 
 ```html
 <p align="center">
@@ -45,16 +53,6 @@ README pattern (header only — no product icon block):
 
 # Product name
 ```
-
-## Other assets (not used on GitHub right now)
-
-| Path | Status |
-|------|--------|
-| `marks/`, `repo/` | Legacy / experimental product marks — not shown on READMEs |
-| `heroes/` | Marketing stills — optional, not wired into READMEs |
-| `assets/` | Duplicate header + optional copies |
-
-Do not install product icons into READMEs or the org profile until branding decides otherwise.
 
 ## Design notes
 
