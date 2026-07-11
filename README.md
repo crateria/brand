@@ -1,4 +1,19 @@
+<p align="center">
+  <a href="https://github.com/crateria">
+    <img src="headers/crateria-header.jpg" alt="Crateria" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <img src="marks/crateria.png" width="72" height="72" alt="Crateria brand kit">
+</p>
+
 # Crateria brand kit
+
+Canonical visual assets for the Crateria organization.
+
+**Header source of truth:**  (and ).
+Product repos keep a **copy** under  so README relative paths work without depending on GitHub CDN cache.
 
 ## Header preview
 
