@@ -3,7 +3,7 @@
 ## Header preview
 
 Wide banner used on product READMEs (`headers/crateria-header.jpg`, 1280×240).
-C mark sits left; vertical overflow is intentional.
+C mark on the left (vertically cropped); rusted environment from the original art on the right.
 
 ![Crateria header](headers/crateria-header.jpg)
 
