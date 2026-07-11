@@ -1,39 +1,56 @@
 # Crateria brand kit
 
-**Canonical source of truth** for Crateria visual identity assets.
+<p align="center">
+  <img src="marks/crateria.png" width="128" height="128" alt="Crateria">
+</p>
 
-If a laptop dies, clone this repo — do not rely on local `Downloads/`.
+<p align="center">
+  <strong>Canonical source of truth</strong> for Crateria visual identity.
+</p>
+
+If a machine is wiped, clone this repo — do not rely on local `Downloads/`.
+
+```bash
+git clone https://github.com/crateria/brand.git
+```
+
+## Marks
+
+| Mark | Use |
+|------|-----|
+| ![c](marks/crateria-64.png) **crateria** | Org avatar, packages site, umbrella brand |
+| ![t](marks/trance-64.png) **trance** | Screensaver core (daemon / CLI / TUI / applet) |
+| ![p](marks/trance-plugins-64.png) **trance-plugins** | Effect suite |
+| ![m](marks/morphball-64.png) **morphball** | Archive manager |
 
 ## Layout
 
 ```
-marks/          Square transparent PNG masters + size ladder
-  *.png         1024×1024 masters (crateria, trance, morphball, trance-plugins)
-  *-{32..512}.png   Size ladder for packaging / desktop
-  *-on-dark.jpg Preview composites on brand dark
-heroes/         Marketing / OG sources (wide + scenic)
-repo/           Ready-to-install 512 PNG + embedded SVG (+ org avatar)
+marks/     Square transparent PNG masters (1024) + size ladder (32–512) + on-dark previews
+heroes/    Marketing / OG sources (wide + scenic)
+repo/      Ready-to-install 512 PNG + embedded SVG (+ org-avatar.png)
 ```
 
 ## Install into product repos
 
-| Product | Files to copy |
-|---------|----------------|
-| `trance` | `repo/trance.png` → `assets/icon.png`, `repo/trance.svg` → `assets/icon.svg` (also applet `resources/icon.png`) |
-| `morphball` | `repo/morphball.png` / `.svg` → `assets/` |
-| `trance-plugins` | `repo/trance-plugins.png` / `.svg` → `assets/` |
-| `packages` | `repo/crateria.png` → `assets/icon.png` (site favicon) |
-| Org profile | `repo/crateria-org-avatar.png` → GitHub org **Settings → Profile picture** (manual UI) |
-| `.github` profile README | `repo/*.png` under `profile/icons/` |
+| Product | Copy from `repo/` |
+|---------|-------------------|
+| [trance](https://github.com/crateria/trance) | `trance.png` → `assets/icon.png`, `trance.svg` → `assets/icon.svg` (+ applet `resources/icon.png`) |
+| [morphball](https://github.com/crateria/morphball) | `morphball.png` / `.svg` → `assets/` |
+| [trance-plugins](https://github.com/crateria/trance-plugins) | `trance-plugins.png` / `.svg` → `assets/` |
+| [packages](https://github.com/crateria/packages) | `crateria.png` → `assets/icon.png` |
+| Org profile | `crateria-org-avatar.png` → GitHub **Settings → Profile picture** (manual) |
+| [.github](https://github.com/crateria/.github) | icons under `profile/icons/` |
 
-Product repos keep **only** the installed icon files they ship. This repo keeps the full ladder and heroes.
+Product repos keep **only** the shipped icons. This repo keeps masters, ladders, and heroes.
 
 ## Brand notes
 
-- Palette: neon orange on near-black; pixel / CRT glow language
+- Palette: neon orange (`#ff8541`) on near-black (`#0b0d0f`–`#121216`)
+- Language: pixel / CRT glow, Chozo-adjacent geometry
 - Prefer transparent PNG for UI; JPEG heroes for marketing only
-- True hand-traced SVG is future work; current `.svg` files embed PNG for README compatibility
+- Current `.svg` files embed PNG for README compatibility; hand-traced SVG is future work
 
 ## License
 
-Same as Crateria product repos (Apache-2.0) unless noted otherwise.
+[Apache-2.0](LICENSE) · Copyright 2026 [Crateria](https://github.com/crateria)
