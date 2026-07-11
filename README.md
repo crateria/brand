@@ -2,16 +2,20 @@
 
 ## Header preview
 
-Wide banner used on product READMEs (`headers/crateria-header.jpg`, 1280×240).
-C mark on the left (vertically cropped); rusted environment from the original art on the right.
+`headers/crateria-header.jpg` (1280×240) — used on product READMEs.
+
+- **Left:** Crateria C (oversized, cropped top/bottom)
+- **Right:** rusted environment from the original scenic art
+- One continuous frame (not two images spliced mid-banner)
 
 ![Crateria header](headers/crateria-header.jpg)
 
-Product icon sample:
+Full mark (uncropped):
 
 <p align="center">
-  <img src="marks/crateria.png" width="72" height="72" alt="Crateria">
+  <img src="marks/crateria.png" width="96" height="96" alt="Crateria">
 </p>
+
 
 Canonical visual assets for the Crateria organization. Product repositories ship only the icons they need; this repository keeps masters, size ladders, and marketing sources.
 
