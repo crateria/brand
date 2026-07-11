@@ -1,17 +1,16 @@
-# Crateria brand kit
-
 <p align="center">
-  <img src="marks/crateria.png" width="96" height="96" alt="Crateria">
+  <a href="https://github.com/crateria">
+    <img src="headers/crateria-header.jpg" alt="Crateria" width="800">
+  </a>
 </p>
 
-Canonical visual assets for the Crateria organization.
+<p align="center">
+  <img src="marks/crateria.png" width="72" height="72" alt="Crateria brand kit">
+</p>
 
-```bash
-git clone https://github.com/crateria/brand.git
-```
+# Crateria brand kit
 
-Product repositories ship only the icons they need. This repository keeps
-masters, size ladders, and marketing sources.
+Canonical visual assets for the Crateria organization. Product repositories ship only the icons they need; this repository keeps masters, size ladders, and marketing sources.
 
 ## Marks
 
@@ -25,6 +24,7 @@ masters, size ladders, and marketing sources.
 ## Directory layout
 
 ```
+headers/  README banner (crateria-header.jpg) for all product repos
 marks/    Transparent PNG masters (1024×1024) and size ladder (32–512)
           plus *-on-dark.jpg previews
 heroes/   Wide and scenic marketing stills
@@ -40,6 +40,7 @@ repo/     Install-ready 512×512 PNG and PNG-embedded SVG
 | [morphball](https://github.com/crateria/morphball) | `morphball.png`, `morphball.svg` → `assets/` |
 | [trance-plugins](https://github.com/crateria/trance-plugins) | `trance-plugins.png`, `trance-plugins.svg` → `assets/` |
 | [packages](https://github.com/crateria/packages) | `crateria.png` → `assets/icon.png` |
+| All product READMEs | `headers/crateria-header.jpg` → `assets/crateria-header.jpg` |
 | Organization avatar | `crateria-org-avatar.png` → GitHub org **Settings → Profile picture** |
 | [.github profile](https://github.com/crateria/.github) | PNG marks under `profile/icons/` |
 
