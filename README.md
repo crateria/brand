@@ -1,4 +1,6 @@
-# IdleScreen brand kit
+# idle-brand
+
+IdleScreen brand kit
 
 Canonical icons, headers, and visual assets for
 [IdleScreen](https://github.com/idlescreen).
