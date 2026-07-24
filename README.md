@@ -1,17 +1,13 @@
-# idle-brand
+# brand
 
-IdleScreen brand kit
+IdleScreen brand kit — icons, heroes, org avatar, and shared visual assets.
 
-Canonical icons, headers, and visual assets for
-[IdleScreen](https://github.com/idlescreen).
-
-## Assets
-
-| File | Use |
-|------|-----|
-| `assets/idlescreen-org-icon.jpg` | Organization / profile icon |
-| Other assets in `assets/` | Headers and product art |
+| | |
+|---|---|
+| Org | [idlescreen](https://github.com/idlescreen) |
+| Core | [idle-core](https://github.com/idlescreen/idle-core) |
 
 ## License
 
-Apache-2.0 unless noted per file.
+Assets in this repository are provided for IdleScreen product use unless a
+file states otherwise.
